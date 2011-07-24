@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="net.usenet.Newz4Droid"
+      android:versionName="1.1" android:versionCode="2">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Main"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name="Preferences" android:label="Preferences"></activity>
+
+<activity android:name="DownloadQueue" android:alwaysRetainTaskState="true"></activity>
+<activity android:name="NZBList"></activity>
+<activity android:name="DownloadStatus"></activity>
+<service android:name="DownloadService"></service>
+<activity android:name="NZBList"></activity>
+</application>
+    <uses-sdk android:minSdkVersion="7" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

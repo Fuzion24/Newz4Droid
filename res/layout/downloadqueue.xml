@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"         
+ android:layout_centerHorizontal="true">
+
+ <ListView android:id="@+id/listViewDownloadQueue"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent" 
+/>
+
+
+<Button android:id="@+id/btnDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download Queue"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal" />
+<Button android:id="@+id/btnStopDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Download"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+</RelativeLayout>

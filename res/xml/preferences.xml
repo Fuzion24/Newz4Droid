@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<EditTextPreference android:key="serverHostname" android:title="Server Hostname" android:summary="Newsserver host"></EditTextPreference>
+<EditTextPreference android:key="username" android:title="Username" android:summary="Newsserver Username"></EditTextPreference>
+<EditTextPreference android:key="password" android:title="Password" android:summary="Newsserver Password"></EditTextPreference>
+<EditTextPreference  android:key="portNumber" android:title="Port Number" android:summary="Server Portnumber"></EditTextPreference>
+<CheckBoxPreference android:key="useSSL" android:title="Use SSL" />
+</PreferenceScreen>
